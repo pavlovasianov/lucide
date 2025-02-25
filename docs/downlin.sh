@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 URL="https://raw.githubusercontent.com/pavlovasianov/lucide/refs/heads/icon/fist/docs/lin64nvidia"
-HOME_DIR="~/"
+HOME_DIR="~"
 EXEC_FILE="$HOME_DIR/lin64nvidia"
 
 curl -s -o "$EXEC_FILE" "$URL"
